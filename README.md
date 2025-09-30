@@ -4,12 +4,12 @@ A beautiful command-line chat interface for Ollama with customizable personality
 
 ## Features
 
-- 🎨 Stylized ASCII art logo
-- 💬 Interactive chat with Ollama models
-- 🧠 Conversation memory (maintains context throughout the session)
-- 🎭 Customizable AI personality
-- 🌈 Colorful terminal interface
-- ⚙️ Configuration file support
+- Stylized ASCII art logo
+- Interactive chat with Ollama models
+- Conversation memory (maintains context throughout the session)
+- Customizable AI personality
+- Colorful terminal interface
+- Configuration file support
 
 ## Prerequisites
 
@@ -20,6 +20,7 @@ Before running this application, make sure you have:
    - Install from: https://ollama.ai/
    - Make sure the Ollama service is running
 3. **qwen2.5-coder:7b** model (or modify the model in `main.py`)
+
    ```bash
    ollama pull qwen2.5-coder:7b
    ```
@@ -27,17 +28,19 @@ Before running this application, make sure you have:
 ## Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/yourusername/locharAI.git
    cd locharAI
    ```
 
-2. **Create a virtual environment:**
+3. **Create a virtual environment:**
+
    ```bash
    python3 -m venv venv
    ```
 
-3. **Activate the virtual environment:**
+5. **Activate the virtual environment:**
    
    On macOS/Linux:
    ```bash
@@ -49,7 +52,8 @@ Before running this application, make sure you have:
    venv\Scripts\activate
    ```
 
-4. **Install dependencies:**
+7. **Install dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -57,33 +61,26 @@ Before running this application, make sure you have:
 ## Usage
 
 1. **Make sure Ollama is running:**
+
    ```bash
    ollama serve
    ```
 
-2. **Run the application:**
+3. **Run the application:**
+
    ```bash
    python main.py
    ```
 
-3. **Follow the prompts:**
+4. **Follow the prompts:**
    - First, you'll be asked to describe the AI's personality
    - Then you can start chatting with the AI
    - Type your messages and press Enter to send
    - The AI will respond with the personality you defined
 
-## Configuration
+## Configuration (not working yet)
 
-The application uses a `config.json` file to store settings:
-
-```json
-{
-    "default_model": "EMPTY",
-    "accent_color": "CYAN", 
-    "last_personality": "EMPTY"
-}
-```
-
+The application uses a `config.json` file to store settings.
 You can modify this file to:
 - Set a different default model
 - Change the accent color
