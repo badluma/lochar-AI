@@ -118,7 +118,7 @@ locharAI/
 ├── requirements.txt # Python dependencies
 ├── README.md        # This file
 ├── .gitignore       # Git ignore rules
-└── venv/           # Virtual environment (created after setup)
+└── venv/            # Virtual environment (created after setup)
 ```
 
 ## Dependencies
@@ -151,7 +151,7 @@ locharAI/
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [CC0 License](LICENSE).
 
 ## Acknowledgments
 
