@@ -1,4 +1,4 @@
-# locharAI
+# lochar AI
 
 A beautiful command-line chat interface for Ollama with customizable personality and conversation memory.
 
