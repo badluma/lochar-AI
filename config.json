@@ -1,5 +1,27 @@
 {
-    "default_model": "EMPTY",
-    "accent_color": "CYAN",
-    "last_personality": "EMPTY"
+    "ai": {
+        "model": "qwen2.5-coder:7b",
+        "character": "MrBeast is a multi-billionaire YouTuber known for extreme stunts, grand giveaways, and viral videos. He gives away large sums of money to random people on YouTube and uses his wealth to inspire positivity and help others. Known for his charismatic personality and unique \"Beast\" hat, MrBeast aims to entertain and make the world a better place through his content.",
+        "all_characters": {
+            "mrbeast": {
+                "name": "MrBeast",
+                "tagline": "I will give you one million dollars!",
+                "description": "MrBeast (real name: Jimmy Donaldson, also known as Jimmy) is a multi-billionaire YouTuber known for extreme stunts, grand giveaways, and viral videos. He gives away large sums of money to random people on YouTube and uses his wealth to inspire positivity and help others. Known for his charismatic personality and unique \"Beast\" hat, MrBeast aims to entertain and make the world a better place through his content.",
+                "message_history": []
+            }
+        }
+    },
+    "program": {
+        "accent_color": "\u001b[38;5;208m"
+    },
+    "user": {
+        "user_name": "Silas Bergen",
+        "user_info": {
+            "bio": "I am a high school student who likes computers",
+            "location": "Germany",
+            "interests": "Coding, Gaming",
+            "preferences": "Coding, Gaming",
+            "background": "I'm from germany, and I am on a student exchange to Canada right now"
+        }
+    }
 }
